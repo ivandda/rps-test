@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--    FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <!--    FONTS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>R-P-S</title>
+</head>
+<body>
+
+    <header>
+        <div class="container" id="titlesContainer">
+            <h1 class="title">Rock-Paper-Scissors</h1>
+            <h3 class="instructions">Win five rounds vs computer to save the world</h3>
+        </div>
+    </header>
+
+    <div class="container" id="buttonContainer">
+<!--        <div class="container" id="buttons">-->
+            <button>
+                <img src="images/rock.png"  id="Rock">
+            </button>
+            <button>
+                <img src="images/paper.png"  id="Paper">
+            </button>
+            <button>
+                <img src="images/scissors.png" id="Scissors">
+            </button>
+<!--        </div>-->
+    </div>
+
+    <div class="container" id="scoresContainer">
+        <p class="scoreText" id="ComputerChoiceText">Computer chose:⠀?</p>
+        <span class="scoreText" id="scoreTextPlayer">Player Score: 0⠀⠀</span>
+        <span class="scoreText" id="scoreTextComputer">Computer Score: 0</span>
+        <p class="scoreText" id="scoreTextResult">⠀</p>
+    </div>
+
+    <audio id="audioRock" src="/sounds/soundRock.wav"></audio>
+    <audio id="audioPaper" src="/sounds/soundPaper.wav"></audio>
+    <audio id="audioScissors" src="/sounds/soundScissors.wav"></audio>
+    <audio id="audioRoundLost" src="/sounds/soundRoundLost.wav"></audio>
+    <audio id="audioGameLost" src="/sounds/soundGameLost.wav"></audio>
+    <audio id="audioGameWon" src="/sounds/SoundGameWon.wav"></audio>
+    <audio id="audioRoundTie" src="/sounds/soundRoundTie.wav"></audio>
+
+    <script src="js-file-DOM-2.js"></script>
+</body>
+</html>
