@@ -104,9 +104,15 @@ button:hover::after {
     left: 100%;
 }
 
-button:hover{
-    transform: scale(1.15);
+
+
+@media (min-width: 800px){
+    button:hover{
+        transform: scale(1.15);
+    }
 }
+
+
 @media (max-width: 800px){
     body{
         flex: initial;
@@ -165,10 +171,6 @@ button:hover{
     #scoreTextResult{
         font-size: 4vmax;
         /*margin: 30px 10px 10px 10px;*/
-    }
-
-    button:hover{
-
     }
 
 }
