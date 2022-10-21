@@ -19,6 +19,7 @@
     let rounds = 0
     let j = true
 
+    let image = document.addEventListener('image')
     let scoreTextPlayer = document.querySelector('#scoreTextPlayer')
     let scoreTextComputer = document.querySelector('#scoreTextComputer')
     let scoreTextResult = document.querySelector('#scoreTextResult')
@@ -33,7 +34,12 @@
     let soundGameLost = document.querySelector('#audioGameLost')
     let soundGameWon = document.querySelector('#audioGameWon')
     let soundRoundTie = document.querySelector('#audioRoundTie')
+
+    let user_agent = navigator.userAgent.toLowerCase();
     let ios_devices = user_agent.match(/(iphone|ipod|ipad)/)  ? "touchstart" : "click";
+    image.bind(ios_devices , function() { // bind the ios devices
+        console.log("IOS Devices Click Event Test ...");
+    });
 
 
     function getComputerChoice(){
