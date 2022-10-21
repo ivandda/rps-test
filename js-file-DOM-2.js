@@ -25,8 +25,8 @@
     let ComputerChoiceText = document.querySelector('#ComputerChoiceText')
     let scores = document.querySelector('#scores')
 
-    // let soundRock = document.querySelector('#audioRock')
-    let soundRock = new Audio('/sounds/soundRock.wav')
+    let soundRock = document.querySelector('#audioRock')
+    // let soundRock = new Audio('/sounds/soundRock.wav')
     let soundPaper = document.querySelector('#audioPaper')
     let soundScissors = document.querySelector('#audioScissors')
     let soundRoundLost = document.querySelector('#audioRoundLost')
