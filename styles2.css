@@ -81,6 +81,8 @@ img{
     flex: auto;
     max-width: 100%;
 
+    cursor: pointer;
+
 }
 
 
