@@ -166,5 +166,9 @@ button:hover{
         font-size: 4vmax;
         /*margin: 30px 10px 10px 10px;*/
     }
+
+    button:hover{
+
+    }
 }
 
