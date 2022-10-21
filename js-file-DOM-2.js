@@ -157,8 +157,18 @@
             // SOUND
         }
 
-        if (result === 'player' || result === 'computer'){
-            scoreTextResult.textContent = result + ' won game!!'
+        // if (result === 'player' || result === 'computer'){
+        //     scoreTextResult.textContent = result + ' won game!!'
+        //     result = 'end'
+        // }
+
+        if (result === 'player'){
+            scoreTextResult.textContent =  'Congratulations, you won the game :)'
+            result = 'end'
+        }
+
+        if (result === 'computer'){
+            scoreTextResult.textContent =  'You lost the game :('
             result = 'end'
         }
     }

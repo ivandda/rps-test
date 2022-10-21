@@ -86,10 +86,12 @@ img{
 
 #scoresContainer{
     flex: initial;
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 3vmax;
+    /*font-family: 'Cabin Sketch', cursive;*/
+    /*font-size: 3vmax;*/
     text-align: center;
     margin: 5px;
+    font-family: 'Carter One', cursive;
+    font-size: 2vmax;
 }
 
 .scoreText{
@@ -98,6 +100,8 @@ img{
 #scoreTextResult{
     font-size: 5vmax;
     /*margin: 30px 10px 10px 10px;*/
+    font-family: 'Cabin Sketch', cursive;
+    margin-top: 10px;
 }
 
 button:hover::after {
@@ -118,13 +122,27 @@ button:hover::after {
         flex: initial;
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        width: 90%;
-        border: 0;
-        margin: 0;
+        /*height: 120vh;*/
+        margin:0;
+        width:90vw;
+        height:100vh;
+        overflow:auto;
 
         align-items: center;
         justify-content: center;
+    }
+
+    .title{
+        font-size: 5vmax;
+        text-align: center;
+        margin: 5px 0 0 0;
+
+
+    }
+    .instructions{
+        font-size: 2vmax;
+        text-align: center;
+        margin: 5px 0 0 0;
     }
 
     #buttonContainer{
@@ -133,7 +151,7 @@ button:hover::after {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 10% 0 10% 0;
+        /*margin: 10% 0 10% 0;*/
 
 
     }
@@ -152,10 +170,10 @@ button:hover::after {
         flex: initial;
         max-width: 150px;
         max-height: 150px;
-        min-width: 50px;
-        min-height: 50px;
+        /*min-width: 15px;*/
+        /*min-height: 15px;*/
 
-        margin: 3% 0 3% 0;
+        /*margin: 3% 0 3% 0;*/
     }
     #scoresContainer{
         flex: initial;
