@@ -33,6 +33,8 @@
     let soundGameLost = document.querySelector('#audioGameLost')
     let soundGameWon = document.querySelector('#audioGameWon')
     let soundRoundTie = document.querySelector('#audioRoundTie')
+    let ios_devices = user_agent.match(/(iphone|ipod|ipad)/)  ? "touchstart" : "click";
+
 
     function getComputerChoice(){
         let possibleChoice = ["Rock", "Paper", "Scissors"]

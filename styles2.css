@@ -177,6 +177,15 @@ button:hover::after {
 
         /*margin: 3% 0 3% 0;*/
     }
+
+    img{
+        flex: auto;
+        max-width: 100%;
+
+        cursor: pointer;
+
+    }
+
     #scoresContainer{
         flex: initial;
         font-family: 'Cabin Sketch', cursive;
